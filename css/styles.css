@@ -6,14 +6,17 @@ body{
     }
 
 .square{
-    /* position: absolute; */
     background-color: white;
-    /* margin: auto; */
-    width: 30%;
-    height: 30%;
+    border-radius: 5%;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 200px;
 }
 
 .qr-image{
-    border-radius: 2%;
-    height: 200px;
+    border-radius: 5%;
+    height: 250px;
+    margin: 20px;
 }
