@@ -5,13 +5,14 @@ body{
     /* width: 1440px; */
     }
 
-p{
+.bottom-text{
     color: hsl(220, 15%, 55%);
     margin: 20px;
 }
-h3{
+.top-text{
     color: hsl(218, 44%, 22%);
-    margin: 15px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
     font-size: 22px;
 }
 .square{
@@ -19,13 +20,23 @@ h3{
     border-radius: 5.5%;
     height: 500px;
     width: 320px;
-    margin: auto;
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
 .qr-image{
     border-radius: 3%;
     height: 280px;
     margin: 15px;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    right: 25%;
 }
